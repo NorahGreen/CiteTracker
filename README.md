@@ -3,6 +3,10 @@ The official implementation for the **iccv 2023** paper [_CiteTracker: Correlati
 
 [[Models](https://drive.google.com/drive/folders/12byllgwhJQVBS6EK7XnfQU7m_9JuDCCZ?usp=sharing)][[Raw Results](https://drive.google.com/drive/folders/1TYU5flzZA1ap2SLdzlGRQDbObwMxCiaR?usp=sharing)][[Data](https://drive.google.com/drive/folders/1TtHNzc4ils5yjAi5bIXZA3nK3iRNpszB?usp=drive_link)]
 
+<p align="center">
+  <img width="85%" src="https://github.com/NorahGreen/CiteTracker/blob/main/fig/framework.png" alt="Framework"/>
+</p>
+
 ## Install the environment
 **Option1**: Use the Anaconda (CUDA 10.2)
 ```
