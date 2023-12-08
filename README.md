@@ -85,6 +85,10 @@ python tracking/test.py citetrack vitb_384_mae_ce_32x4_ep300 --dataset trackingn
 python lib/test/utils/transform_trackingnet.py --tracker_name citetrack --cfg_name vitb_384_mae_ce_32x4_ep300
 ```
 
+## Acknowledgments
+* Thanks for the [OSTrack](https://github.com/botaoye/OSTrack) and [COCOOP](https://github.com/KaiyangZhou/CoOp/tree/main) library, which helps us to quickly implement our ideas.
+* We use the implementation of the ViT from the [Timm](https://github.com/rwightman/pytorch-image-models) repo.  
+
 ## Citation
 ```
 @inproceedings{citetracker,
