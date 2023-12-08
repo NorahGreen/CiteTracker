@@ -28,6 +28,7 @@ lib/test/evaluation/local.py  # paths about testing
 
 ## Data Preparation
 Put the tracking datasets in ./data. It should look like this:
+   ```
    ${PROJECT_ROOT}
     -- data
         -- lasot
