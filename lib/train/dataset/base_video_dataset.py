@@ -1,6 +1,6 @@
 import torch.utils.data
 # 2021.1.5 use jpeg4py_loader_w_failsafe as default
-from CiteTracker.lib.train.data.image_loader import jpeg4py_loader_w_failsafe
+from lib.train.data.image_loader import jpeg4py_loader_w_failsafe
 
 
 class BaseVideoDataset(torch.utils.data.Dataset):

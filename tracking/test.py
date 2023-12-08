@@ -6,9 +6,9 @@ prj_path = os.path.join(os.path.dirname(__file__), '../..')
 if prj_path not in sys.path:
     sys.path.append(prj_path)
 
-from CiteTracker.lib.test.evaluation import get_dataset
-from CiteTracker.lib.test.evaluation.running import run_dataset
-from CiteTracker.lib.test.evaluation.tracker import Tracker
+from lib.test.evaluation import get_dataset
+from lib.test.evaluation.running import run_dataset
+from lib.test.evaluation.tracker import Tracker
 
 
 def run_tracker(tracker_name, tracker_param, run_id=None, dataset_name='otb', sequence=None, debug=0, threads=0,

@@ -1,18 +1,18 @@
 import os
 # loss function related
-from CiteTracker.lib.utils.box_ops import giou_loss
+from lib.utils.box_ops import giou_loss
 from torch.nn.functional import l1_loss
 from torch.nn import BCEWithLogitsLoss
 # train pipeline related
-from CiteTracker.lib.train.trainers import LTRTrainer
+from lib.train.trainers import LTRTrainer
 # distributed training related
 from torch.nn.parallel import DistributedDataParallel as DDP
 # some more advanced functions
 from .base_functions import *
 # network related
-from CiteTracker.lib.models.citetrack import build_citetrack
+from lib.models.citetrack import build_citetrack
 # forward propagation related
-from CiteTracker.lib.train.actors import CiteTrackerActor
+from lib.train.actors import CiteTrackerActor
 # for import modules
 import importlib
 

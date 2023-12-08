@@ -1,5 +1,5 @@
 from . import BaseActor
-from CiteTracker.lib.utils.box_ops import box_cxcywh_to_xyxy, box_xywh_to_xyxy
+from lib.utils.box_ops import box_cxcywh_to_xyxy, box_xywh_to_xyxy
 import torch
 from ...utils.heapmap_utils import generate_heatmap
 from ...utils.ce_utils import generate_mask_cond, adjust_keep_rate

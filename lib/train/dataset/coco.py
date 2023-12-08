@@ -3,8 +3,8 @@ from .base_image_dataset import BaseImageDataset
 import torch
 import random
 from collections import OrderedDict
-from CiteTracker.lib.train.data import jpeg4py_loader
-from CiteTracker.lib.train.admin import env_settings
+from lib.train.data import jpeg4py_loader
+from lib.train.admin import env_settings
 from pycocotools.coco import COCO
 
 

@@ -7,14 +7,14 @@ import numpy as np
 import cv2 as cv
 from tqdm import tqdm
 
-from CiteTracker.lib.vis.visdom_cus import Visdom
+from lib.vis.visdom_cus import Visdom
 
 env_path = os.path.join(os.path.dirname(__file__), '../lib')
 if env_path not in sys.path:
     sys.path.append(env_path)
 
-from CiteTracker.lib.test.evaluation import trackerlist, get_dataset
-from CiteTracker.lib.test.utils.load_text import load_text
+from lib.test.evaluation import trackerlist, get_dataset
+from lib.test.utils.load_text import load_text
 
 
 class VisResults(object):

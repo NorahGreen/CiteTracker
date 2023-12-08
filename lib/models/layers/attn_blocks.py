@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 from timm.models.layers import Mlp, DropPath
 
-from CiteTracker.lib.models.layers.attn import Attention
+from lib.models.layers.attn import Attention
 
 
 def candidate_elimination(attn: torch.Tensor, tokens: torch.Tensor, lens_t: int, keep_ratio: float, global_index: torch.Tensor, box_mask_z: torch.Tensor):

@@ -9,7 +9,7 @@ import random
 import numpy as np
 torch.backends.cudnn.benchmark = False
 
-import CiteTracker.lib.train.admin.settings as ws_settings
+import lib.train.admin.settings as ws_settings
 
 
 def init_seeds(seed):

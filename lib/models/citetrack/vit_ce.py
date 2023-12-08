@@ -7,7 +7,7 @@ import torch.nn.functional as F
 
 from timm.models.layers import to_2tuple
 
-from CiteTracker.lib.models.layers.patch_embed import PatchEmbed
+from lib.models.layers.patch_embed import PatchEmbed
 from .utils import combine_tokens, recover_tokens
 from .vit import VisionTransformer
 from ..layers.attn_blocks import CEBlock

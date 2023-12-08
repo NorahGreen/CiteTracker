@@ -1,6 +1,6 @@
 import numpy as np
-from CiteTracker.lib.test.evaluation.environment import env_settings
-from CiteTracker.lib.train.data.image_loader import imread_indexed
+from lib.test.evaluation.environment import env_settings
+from lib.train.data.image_loader import imread_indexed
 from collections import OrderedDict
 
 

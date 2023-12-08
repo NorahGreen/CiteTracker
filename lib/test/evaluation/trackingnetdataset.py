@@ -1,7 +1,7 @@
 import numpy as np
-from CiteTracker.lib.test.evaluation.data import Sequence, BaseDataset, SequenceList
+from lib.test.evaluation.data import Sequence, BaseDataset, SequenceList
 import os
-from CiteTracker.lib.test.utils.load_text import load_text
+from lib.test.utils.load_text import load_text
 
 
 class TrackingNetDataset(BaseDataset):

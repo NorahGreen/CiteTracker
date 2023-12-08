@@ -1,6 +1,6 @@
 import torch
 import numpy as np
-from CiteTracker.lib.utils.misc import NestedTensor
+from lib.utils.misc import NestedTensor
 
 
 class Preprocessor(object):

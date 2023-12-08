@@ -1,5 +1,5 @@
 import torch.utils.data
-from CiteTracker.lib.train.data.image_loader import jpeg4py_loader
+from lib.train.data.image_loader import jpeg4py_loader
 
 
 class BaseImageDataset(torch.utils.data.Dataset):

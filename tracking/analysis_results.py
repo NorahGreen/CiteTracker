@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 plt.rcParams['figure.figsize'] = [8, 8]
 
-from CiteTracker.lib.test.analysis.plot_results import print_results
-from CiteTracker.lib.test.evaluation import get_dataset, trackerlist
+from lib.test.analysis.plot_results import print_results
+from lib.test.evaluation import get_dataset, trackerlist
 
 trackers = []
 dataset_name = 'tnl2k'

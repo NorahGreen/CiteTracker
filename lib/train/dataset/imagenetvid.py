@@ -1,11 +1,11 @@
 import os
 from .base_video_dataset import BaseVideoDataset
-from CiteTracker.lib.train.data import jpeg4py_loader
+from lib.train.data import jpeg4py_loader
 import xml.etree.ElementTree as ET
 import json
 import torch
 from collections import OrderedDict
-from CiteTracker.lib.train.admin import env_settings
+from lib.train.admin import env_settings
 
 
 def get_target_to_image_ratio(seq):

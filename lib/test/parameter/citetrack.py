@@ -1,7 +1,7 @@
-from CiteTracker.lib.test.utils import TrackerParams
+from lib.test.utils import TrackerParams
 import os
-from CiteTracker.lib.test.evaluation.environment import env_settings
-from CiteTracker.lib.config.citetrack.config import cfg, update_config_from_file
+from lib.test.evaluation.environment import env_settings
+from lib.config.citetrack.config import cfg, update_config_from_file
 
 
 def parameters(yaml_name: str):

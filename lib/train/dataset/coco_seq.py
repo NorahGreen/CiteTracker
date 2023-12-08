@@ -1,11 +1,11 @@
 import os
 from .base_video_dataset import BaseVideoDataset
-from CiteTracker.lib.train.data import jpeg4py_loader
+from lib.train.data import jpeg4py_loader
 import torch
 import random
 from pycocotools.coco import COCO
 from collections import OrderedDict
-from CiteTracker.lib.train.admin import env_settings
+from lib.train.admin import env_settings
 
 
 class MSCOCOSeq(BaseVideoDataset):

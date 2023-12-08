@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 from timm.models.layers import trunc_normal_
 
-from CiteTracker.lib.models.layers.rpe import generate_2d_concatenated_self_attention_relative_positional_encoding_index
+from lib.models.layers.rpe import generate_2d_concatenated_self_attention_relative_positional_encoding_index
 
 
 class Attention(nn.Module):

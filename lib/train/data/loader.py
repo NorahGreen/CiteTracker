@@ -3,7 +3,7 @@ import torch.utils.data.dataloader
 import importlib
 import collections
 from torch._six import string_classes
-from CiteTracker.lib.utils import TensorDict, TensorList
+from lib.utils import TensorDict, TensorList
 import warnings
 warnings.filterwarnings('ignore')
 

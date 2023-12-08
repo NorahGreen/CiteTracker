@@ -5,8 +5,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 from timm.models.layers import to_2tuple, trunc_normal_
 
-from CiteTracker.lib.models.layers.patch_embed import PatchEmbed
-from CiteTracker.lib.models.citetrack.utils import combine_tokens, recover_tokens
+from lib.models.layers.patch_embed import PatchEmbed
+from lib.models.citetrack.utils import combine_tokens, recover_tokens
 
 
 class BaseBackbone(nn.Module):

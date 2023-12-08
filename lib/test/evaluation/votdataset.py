@@ -3,7 +3,7 @@ from typing import Union, TextIO
 import numpy as np
 from numba import jit
 
-from CiteTracker.lib.test.evaluation.data import SequenceList, BaseDataset, Sequence
+from lib.test.evaluation.data import SequenceList, BaseDataset, Sequence
 
 
 class VOTDataset(BaseDataset):

@@ -1,7 +1,7 @@
 import torch
 import torchvision.transforms as transforms
-from CiteTracker.lib.utils import TensorDict
-import CiteTracker.lib.train.data.processing_utils as prutils
+from lib.utils import TensorDict
+import lib.train.data.processing_utils as prutils
 import torch.nn.functional as F
 
 

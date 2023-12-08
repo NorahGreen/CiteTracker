@@ -1,5 +1,5 @@
 import os
-from CiteTracker.lib.test.evaluation import get_dataset
+from lib.test.evaluation import get_dataset
 import shutil
 
 trackers = []

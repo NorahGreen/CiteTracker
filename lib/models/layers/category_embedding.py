@@ -1,11 +1,11 @@
 import torchvision.transforms as transforms
 
 import torch
-import CiteTracker.lib.models.layers.clip.clip as clip
+import lib.models.layers.clip.clip as clip
 from PIL import Image
 from torch import nn
 from torchvision.transforms import Compose, Resize, CenterCrop, ToTensor, Normalize
-from CiteTracker.lib.models.layers.state import State_encoder
+from lib.models.layers.state import State_encoder
 
 
 def _convert_image_to_rgb(image):

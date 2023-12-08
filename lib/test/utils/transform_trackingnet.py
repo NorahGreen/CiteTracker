@@ -2,7 +2,7 @@ import numpy as np
 import os
 import shutil
 import argparse
-from CiteTracker.lib.test.evaluation.environment import env_settings
+from lib.test.evaluation.environment import env_settings
 
 
 def transform_trackingnet(tracker_name, cfg_name):

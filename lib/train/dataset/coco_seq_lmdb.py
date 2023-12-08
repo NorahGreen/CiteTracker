@@ -1,12 +1,12 @@
 import os
 from .base_video_dataset import BaseVideoDataset
-from CiteTracker.lib.train.data import jpeg4py_loader
+from lib.train.data import jpeg4py_loader
 import torch
 import random
 from collections import OrderedDict
-from CiteTracker.lib.train.admin import env_settings
-from CiteTracker.lib.train.dataset.COCO_tool import COCO
-from CiteTracker.lib.utils.lmdb_utils import decode_img, decode_json
+from lib.train.admin import env_settings
+from lib.train.dataset.COCO_tool import COCO
+from lib.utils.lmdb_utils import decode_img, decode_json
 import time
 
 class MSCOCOSeq_lmdb(BaseVideoDataset):

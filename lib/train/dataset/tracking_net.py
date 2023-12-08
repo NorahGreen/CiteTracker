@@ -6,9 +6,9 @@ import pandas
 import random
 from collections import OrderedDict
 
-from CiteTracker.lib.train.data import jpeg4py_loader
+from lib.train.data import jpeg4py_loader
 from .base_video_dataset import BaseVideoDataset
-from CiteTracker.lib.train.admin import env_settings
+from lib.train.admin import env_settings
 
 
 def list_sequences(root, set_ids):

@@ -7,8 +7,8 @@ import numpy as np
 from collections import OrderedDict
 from enum import Enum
 
-from CiteTracker.lib.vis.plotting import overlay_mask, show_image_with_boxes
-from CiteTracker.lib.vis.utils import numpy_to_torch
+from lib.vis.plotting import overlay_mask, show_image_with_boxes
+from lib.vis.utils import numpy_to_torch
 
 
 class cv_colors(Enum):

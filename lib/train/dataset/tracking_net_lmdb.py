@@ -5,11 +5,11 @@ import numpy as np
 import random
 from collections import OrderedDict
 
-from CiteTracker.lib.train.data import jpeg4py_loader
+from lib.train.data import jpeg4py_loader
 from .base_video_dataset import BaseVideoDataset
-from CiteTracker.lib.train.admin import env_settings
+from lib.train.admin import env_settings
 import json
-from CiteTracker.lib.utils.lmdb_utils import decode_img, decode_str
+from lib.utils.lmdb_utils import decode_img, decode_str
 
 
 def list_sequences(root):

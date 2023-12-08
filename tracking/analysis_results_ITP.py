@@ -1,6 +1,6 @@
 import argparse
-from CiteTracker.lib.test.analysis.plot_results import print_results
-from CiteTracker.lib.test.evaluation import get_dataset, trackerlist
+from lib.test.analysis.plot_results import print_results
+from lib.test.evaluation import get_dataset, trackerlist
 
 
 def parse_args():

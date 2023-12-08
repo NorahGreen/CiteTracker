@@ -5,8 +5,8 @@ import os
 import torch
 import pickle
 import json
-from CiteTracker.lib.test.evaluation.environment import env_settings
-from CiteTracker.lib.test.analysis.extract_results import extract_results
+from lib.test.evaluation.environment import env_settings
+from lib.test.analysis.extract_results import extract_results
 
 
 def get_plot_draw_styles():

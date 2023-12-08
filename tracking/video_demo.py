@@ -6,7 +6,7 @@ prj_path = os.path.join(os.path.dirname(__file__), '../..')
 if prj_path not in sys.path:
     sys.path.append(prj_path)
 
-from CiteTracker.lib.test.evaluation import Tracker
+from lib.test.evaluation import Tracker
 
 
 def run_video(tracker_name, tracker_param, videofile, optional_box=None, debug=None, save_results=False):

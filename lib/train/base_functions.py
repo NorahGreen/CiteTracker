@@ -1,12 +1,12 @@
 import torch
 from torch.utils.data.distributed import DistributedSampler
 # datasets related
-from CiteTracker.lib.train.dataset import Lasot, Got10k, MSCOCOSeq, ImagenetVID, TrackingNet
-from CiteTracker.lib.train.dataset import Lasot_lmdb, Got10k_lmdb, MSCOCOSeq_lmdb, ImagenetVID_lmdb, TrackingNet_lmdb
-from CiteTracker.lib.train.data import sampler, opencv_loader, LTRLoader
-from CiteTracker.lib.train.data import processing
-import CiteTracker.lib.train.data.transforms as tfm
-from CiteTracker.lib.utils.misc import is_main_process
+from lib.train.dataset import Lasot, Got10k, MSCOCOSeq, ImagenetVID, TrackingNet
+from lib.train.dataset import Lasot_lmdb, Got10k_lmdb, MSCOCOSeq_lmdb, ImagenetVID_lmdb, TrackingNet_lmdb
+from lib.train.data import sampler, opencv_loader, LTRLoader
+from lib.train.data import processing
+import lib.train.data.transforms as tfm
+from lib.utils.misc import is_main_process
 
 
 def update_settings(settings, cfg):

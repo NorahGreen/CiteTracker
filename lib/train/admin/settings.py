@@ -1,4 +1,4 @@
-from CiteTracker.lib.train.admin.environment import env_settings
+from lib.train.admin.environment import env_settings
 
 
 class Settings:

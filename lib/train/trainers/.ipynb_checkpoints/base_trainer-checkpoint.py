@@ -2,7 +2,7 @@ import os
 import glob
 import torch
 import traceback
-from CiteTracker.lib.train.admin import multigpu
+from lib.train.admin import multigpu
 from torch.utils.data.distributed import DistributedSampler
 
 

@@ -1,11 +1,11 @@
 import importlib
 import os
 from collections import OrderedDict
-from CiteTracker.lib.test.evaluation.environment import env_settings
+from lib.test.evaluation.environment import env_settings
 import time
 import cv2 as cv
 
-from CiteTracker.lib.utils.lmdb_utils import decode_img
+from lib.utils.lmdb_utils import decode_img
 from pathlib import Path
 import numpy as np
 

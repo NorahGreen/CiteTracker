@@ -1,8 +1,8 @@
 import os
 
 import numpy as np
-from CiteTracker.lib.test.evaluation.data import Sequence, BaseDataset, SequenceList
-from CiteTracker.lib.test.utils.load_text import load_text, load_str
+from lib.test.evaluation.data import Sequence, BaseDataset, SequenceList
+from lib.test.utils.load_text import load_text, load_str
 
 ############
 # current 00000492.png of test_015_Sord_video_Q01_done is damaged and replaced by a copy of 00000491.png

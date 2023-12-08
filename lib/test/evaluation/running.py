@@ -7,7 +7,7 @@ import os
 import sys
 from itertools import product
 from collections import OrderedDict
-from CiteTracker.lib.test.evaluation import Sequence, Tracker
+from lib.test.evaluation import Sequence, Tracker
 import torch
 
 

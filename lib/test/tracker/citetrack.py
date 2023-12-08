@@ -1,15 +1,15 @@
-from CiteTracker.lib.models.citetrack import build_citetrack
-from CiteTracker.lib.test.tracker.basetracker import BaseTracker
+from lib.models.citetrack import build_citetrack
+from lib.test.tracker.basetracker import BaseTracker
 import torch
 
-from CiteTracker.lib.test.tracker.vis_utils import gen_visualization
-from CiteTracker.lib.test.utils.hann import hann2d
-from CiteTracker.lib.train.data.processing_utils import sample_target, sample_target_for_clip
+from lib.test.tracker.vis_utils import gen_visualization
+from lib.test.utils.hann import hann2d
+from lib.train.data.processing_utils import sample_target, sample_target_for_clip
 # for debug
 
-from CiteTracker.lib.test.tracker.data_utils import Preprocessor
-from CiteTracker.lib.utils.box_ops import clip_box
-from CiteTracker.lib.utils.ce_utils import generate_mask_cond
+from lib.test.tracker.data_utils import Preprocessor
+from lib.utils.box_ops import clip_box
+from lib.utils.ce_utils import generate_mask_cond
 import cv2
 import matplotlib
 matplotlib.use('Agg')

@@ -2,17 +2,17 @@ import os
 import datetime
 from collections import OrderedDict
 
-from CiteTracker.lib.train.data.wandb_logger import WandbWriter
-from CiteTracker.lib.train.trainers import BaseTrainer
-from CiteTracker.lib.train.admin import AverageMeter, StatValue
-from CiteTracker.lib.train.admin import TensorboardWriter
+from lib.train.data.wandb_logger import WandbWriter
+from lib.train.trainers import BaseTrainer
+from lib.train.admin import AverageMeter, StatValue
+from lib.train.admin import TensorboardWriter
 import torch
 import time
 from torch.utils.data.distributed import DistributedSampler
 from torch.cuda.amp import autocast
 from torch.cuda.amp import GradScaler
 
-from CiteTracker.lib.utils.misc import get_world_size
+from lib.utils.misc import get_world_size
 
 
 class LTRTrainer(BaseTrainer):

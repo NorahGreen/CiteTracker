@@ -26,8 +26,8 @@ import torch.nn.functional as F
 from timm.models.helpers import named_apply, adapt_input_conv
 from timm.models.layers import Mlp, DropPath, trunc_normal_, lecun_normal_
 
-from CiteTracker.lib.models.layers.patch_embed import PatchEmbed
-from CiteTracker.lib.models.citetrack.base_backbone import BaseBackbone
+from lib.models.layers.patch_embed import PatchEmbed
+from lib.models.citetrack.base_backbone import BaseBackbone
 
 
 class Attention(nn.Module):

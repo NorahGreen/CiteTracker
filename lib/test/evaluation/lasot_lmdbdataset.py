@@ -1,5 +1,5 @@
-from CiteTracker.lib.test.evaluation.data import Sequence, BaseDataset, SequenceList
-from CiteTracker.lib.utils.lmdb_utils import *
+from lib.test.evaluation.data import Sequence, BaseDataset, SequenceList
+from lib.utils.lmdb_utils import *
 
 '''2021.1.27 LaSOT dataset using lmdb data'''
 

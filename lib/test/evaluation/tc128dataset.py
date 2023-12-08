@@ -1,5 +1,5 @@
 import numpy as np
-from CiteTracker.lib.test.evaluation.data import Sequence, BaseDataset, SequenceList
+from lib.test.evaluation.data import Sequence, BaseDataset, SequenceList
 import os
 import glob
 import six

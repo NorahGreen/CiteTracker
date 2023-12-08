@@ -1,7 +1,7 @@
 import argparse
 import os
-from CiteTracker.lib.train.admin import create_default_local_file_ITP_train
-from CiteTracker.lib.test.evaluation import create_default_local_file_ITP_test
+from lib.train.admin import create_default_local_file_ITP_train
+from lib.test.evaluation import create_default_local_file_ITP_test
 
 
 def parse_args():

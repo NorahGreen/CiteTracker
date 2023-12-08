@@ -3,8 +3,8 @@ import time
 import torch
 from _collections import OrderedDict
 
-from CiteTracker.lib.train.data.processing_utils import transform_image_to_crop
-from CiteTracker.lib.vis.visdom_cus import Visdom
+from lib.train.data.processing_utils import transform_image_to_crop
+from lib.vis.visdom_cus import Visdom
 
 
 class BaseTracker:

@@ -7,7 +7,7 @@ if prj_path not in sys.path:
 
 import argparse
 import torch
-from CiteTracker.lib.utils.misc import NestedTensor
+from lib.utils.misc import NestedTensor
 from thop import profile
 from thop.utils import clever_format
 import time

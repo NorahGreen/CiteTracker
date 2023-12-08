@@ -1,4 +1,4 @@
-from CiteTracker.lib.utils import TensorList
+from lib.utils import TensorList
 import random
 
 

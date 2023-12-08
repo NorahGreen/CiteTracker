@@ -7,8 +7,8 @@ import torch.nn as nn
 import pickle
 from functools import partial
 
-import CiteTracker.lib.models.layers.clip as clip
-from CiteTracker.lib.models.layers.clip.simple_tokenizer import SimpleTokenizer as _Tokenizer
+import lib.models.layers.clip as clip
+from lib.models.layers.clip.simple_tokenizer import SimpleTokenizer as _Tokenizer
 
 _tokenizer = _Tokenizer()
 

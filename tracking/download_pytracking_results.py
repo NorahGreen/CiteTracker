@@ -5,7 +5,7 @@ import shutil
 import argparse
 import tempfile
 
-from CiteTracker.lib.test.evaluation.environment import env_settings
+from lib.test.evaluation.environment import env_settings
 
 pytracking_results_link_dict = {
     "dimp": {

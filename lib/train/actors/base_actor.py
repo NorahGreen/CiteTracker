@@ -1,4 +1,4 @@
-from CiteTracker.lib.utils import TensorDict
+from lib.utils import TensorDict
 
 
 class BaseActor:

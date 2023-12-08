@@ -1,7 +1,7 @@
 import os
 import sys
 import numpy as np
-from CiteTracker.lib.test.utils.load_text import load_text
+from lib.test.utils.load_text import load_text
 import torch
 import pickle
 from tqdm import tqdm
@@ -10,7 +10,7 @@ env_path = os.path.join(os.path.dirname(__file__), '../../../..')
 if env_path not in sys.path:
     sys.path.append(env_path)
 
-from CiteTracker.lib.test.evaluation.environment import env_settings
+from lib.test.evaluation.environment import env_settings
 
 
 def calc_err_center(pred_bb, anno_bb, normalized=False):

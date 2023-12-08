@@ -1,6 +1,6 @@
 from collections import namedtuple
 import importlib
-from CiteTracker.lib.test.evaluation.data import SequenceList
+from lib.test.evaluation.data import SequenceList
 
 DatasetInfo = namedtuple('DatasetInfo', ['module', 'class_name', 'kwargs'])
 

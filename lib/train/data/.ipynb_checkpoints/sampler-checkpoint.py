@@ -1,7 +1,7 @@
 import random
 import torch.utils.data
-from CiteTracker.lib.utils import TensorDict
-from CiteTracker.lib.train.data.processing_utils import sample_target_for_clip
+from lib.utils import TensorDict
+from lib.train.data.processing_utils import sample_target_for_clip
 import torchvision.transforms as transforms
 
 

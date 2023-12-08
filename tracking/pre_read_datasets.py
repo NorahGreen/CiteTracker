@@ -1,7 +1,7 @@
 import multiprocessing as mp
 import argparse
 import os
-from CiteTracker.lib.utils.lmdb_utils import decode_str
+from lib.utils.lmdb_utils import decode_str
 import time
 import json
 
