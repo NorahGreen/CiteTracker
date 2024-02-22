@@ -55,7 +55,7 @@ def run_training(script_name, config_name, cudnn_benchmark=True, local_rank=-1, 
     settings.local_rank = local_rank
     settings.save_dir = os.path.abspath(save_dir)
     settings.use_lmdb = use_lmdb
-    prj_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../.."))
+    prj_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
     settings.cfg_file = os.path.join(prj_dir, 'experiments/%s/%s.yaml' % (script_name, config_name))
     settings.use_wandb = use_wandb
     if distill:
